@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#navbarel {
+    background-image: linear-gradient(to right , #a517ba , #5f1782);
+}
+
+
+.navbar-item a {
+    color: white;
+    font-weight: 600;
+    text-align: right;
+}
+
+#banner{
+    background-image: linear-gradient(to right , #a517ba , #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-text {
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top:40px;
+    text-align: justify;
+}
+
+.play-btn{
+    height: 30px;
+    margin: 20px;
+}
+
+
+.wave {
+    width: 100%;
+}
+
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.title::before{
+    content: " ";
+    background-color: #5f1782;
+    width: 200px;
+    height: 5px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+
+
+.btn:hover{
+    background-color: blueviolet;
+    transition-duration: 0.5;
+    box-shadow: -4px -3px black;
+}
+
+#about-us {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+
+
+#about-us h1{
+  margin-top: 15px;
+}
+
+#about-us ul{
+    padding: 20px;
+}
+
+#about-us ul li {
+    padding-bottom: 4px;
+}
+
+#testimonials h1 {
+    margin: 100px 0;
+}
+
+#testimonials  .user {
+    border-left: 4px solid #5f1782;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+
+#socialmedia h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.icons a{
+    width: 60px;
+}
+
+
+.icons a:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+
+#footer {
+    background-image: linear-gradient( to right , #a517ba , #5f1782);
+    color: #fff;
+}
+  
+
+.footer-img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 500px) {
+    body{
+        width: 86vh;
+    }
+}
